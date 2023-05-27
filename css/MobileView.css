@@ -2,4 +2,10 @@
   .topLinkNav {
     display: none !important;
   }
+
+  .programGrid{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
+
 }
