@@ -149,3 +149,16 @@ span {
     max-width: 1400px;
     gap: 30px;
 }
+
+.ImgGrid h1{
+    border: 1px black solid;
+    width: 100%;
+    padding: 80px;
+    background-image: linear-gradient(
+        rgba(221, 38, 38, 0.644),
+        rgb(230, 230, 230)
+      ),
+      url("../img/CastDinner.png");
+      background-size:  100%;
+      background-repeat: no-repeat;
+}
