@@ -7,5 +7,12 @@
     display: grid;
     grid-template-columns: repeat(1, 2fr);
   }
-
+  #myContainer{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+}
 }

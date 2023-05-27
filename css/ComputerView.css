@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   list-style-type: none;
   text-decoration: none;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
 }
 
 body {
@@ -429,4 +433,83 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+/*new coding for JavaScript area coding*/
+
+.secondSection{
+    background: #F8F8F8;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#myContainer{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    margin: 0px auto;
+    max-width: 1400px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.box-img img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.speaker-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 380px;
+    justify-content: space-between;
+}
+
+/* foot section */
+
+footer{
+    background: #282b32;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+
+footer h4{
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+    right: 93px;
+
+}
+
+
+
+.foot{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    margin: 0px auto;
+    max-width: 1400px;
+}
+
+.foot .newImgSvg{
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newAbout{
+    background: #F2F2F2;
+}
+
+.moreAbout{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin: 0px auto;
+    max-width: 1400px;
+    justify-content: center;
 }
