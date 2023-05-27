@@ -42,3 +42,5 @@ const textLoad = () =>{
 }
 textLoad();
   setInterval(textLoad,20000);
+
+  

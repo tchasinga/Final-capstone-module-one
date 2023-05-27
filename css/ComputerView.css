@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -57,10 +56,10 @@ body {
   transform: calc(1.3);
 }
 
-/*grid tamplate*/
+/* grid tamplate */
 
 .mainContainer {
-  background: #ffffff;
+  background: #fff;
   width: 100%;
   margin: 0;
   padding: 10px;
@@ -68,7 +67,7 @@ body {
 }
 
 .pageDetails {
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 1400px;
   margin-top: 10px;
   width: 100%;
@@ -90,15 +89,16 @@ nav ul li:last-child {
   text-align: center;
   position: relative;
   bottom: 10px;
-  background: linear-gradient(
-    90deg,
-    #ec4327,
-    #ec4327,
-    #ec4327,
-    #ec4327,
-    #ec4327,
-    #ec4327
-  );
+  background:
+    linear-gradient(
+      90deg,
+      #ec4327,
+      #ec4327,
+      #ec4327,
+      #ec4327,
+      #ec4327,
+      #ec4327
+    );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: animate 0.3s linear infinite;
@@ -112,9 +112,10 @@ nav ul li:last-child {
   margin-bottom: 90px;
 }
 
-/*main section using grid elemet */
+/* main section using grid elemet */
 main {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(235, 235, 235, 0.623),
       rgb(230, 230, 230)
     ),
@@ -124,8 +125,9 @@ main {
   height: 887px;
   backdrop-filter: blur(8px);
 }
+
 .gridContainer {
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 1400px;
   display: grid;
   grid-template-columns: repeat(1, 2fr);
@@ -160,7 +162,8 @@ main {
   text-transform: uppercase;
   color: #ff351fa2;
 }
-/*deatails side and comment about this project*/
+
+/* deatails side and comment about this project */
 
 .secondGrid p {
   color: black;
@@ -173,7 +176,7 @@ main {
   top: 32px;
 }
 
-/*Staring up with the last side of part one */
+/* Staring up with the last side of part one */
 
 .thirdGrid {
   display: grid;
@@ -186,7 +189,7 @@ main {
   font-family: "Jost", sans-serif;
 }
 
-/*working on new section management */
+/* working on new section management */
 
 .firstSection {
   background: #282b32;
@@ -195,28 +198,28 @@ main {
   backdrop-filter: blur(15px);
 }
 
-.Giveparaph{
-    color: white;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    position: relative;
-    top: 90px;
+.Giveparaph {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  position: relative;
+  top: 90px;
 }
 
 .Giveparaphie {
-    color: white;
-    text-align: center;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    position: relative;
-    bottom:50px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  position: relative;
+  bottom: 50px;
 }
 
 .programGrid {
@@ -224,14 +227,12 @@ main {
   flex-direction: row;
   justify-content: center;
   color: white;
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 1400px;
   height: 587px;
   align-items: center;
   text-align: center;
 }
-
-
 
 .programOne .Svgzone {
   max-width: 100px;
@@ -241,8 +242,8 @@ main {
 }
 
 .programOne {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -254,13 +255,13 @@ main {
   background: #3b3e4594;
 }
 
-/* first animation start here*/
+/* first animation start here */
 
 .programOne:hover {
   border: 1px #fff solid;
   transition: all 0.4s;
   transform: scale(1.1);
-  box-shadow: 0px 0px 10px 0px #fff;
+  box-shadow: 0 0 10px 0 #fff;
   background: #3b3e4594;
   backdrop-filter: blur(8px);
   cursor: pointer;
@@ -279,7 +280,8 @@ main {
   margin-top: 10px;
   color: white;
 }
-/* second comment start here*/
+
+/* second comment start here */
 .programTwo {
   justify-content: center;
   align-items: center;
@@ -290,25 +292,26 @@ main {
   margin-top: 20px;
   margin-right: 5px;
   background: #3b3e4594;
-  
 }
 
 .programTwo:hover {
   border: 1px #fff solid;
   transition: all 0.4s;
   transform: scale(1.1);
-  background-color: 0px 0px 10px 0px #fff;
+  background-color: 0 0 10px 0 #fff;
   cursor: pointer;
 }
-/*animation side ?*/
-.animationSide:hover{
-    border: 1px #fff solid;
-    transition: all 0.4s;
-    transform: scale(1.1);
-    background-color: 0px 0px 10px 0px #fff;
-    cursor: pointer;
+
+/* animation side ? */
+.animationSide:hover {
+  border: 1px #fff solid;
+  transition: all 0.4s;
+  transform: scale(1.1);
+  background-color: 0 0 10px 0 #fff;
+  cursor: pointer;
 }
-/*section forward??*/
+
+/* section forward?? */
 .programTwo h1 {
   font-size: 1.5rem;
   font-weight: 300;
@@ -324,13 +327,13 @@ main {
 }
 
 .programTwo .Svgzone {
-   max-width: 150px;
+  max-width: 150px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-/* third comment start here*/
+/* third comment start here */
 
 .programThree {
   justify-content: center;
@@ -359,13 +362,13 @@ main {
 }
 
 .programThree .Svgzone {
-    max-width: 175px;
+  max-width: 175px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-/* fourth comment start here*/
+/* fourth comment start here */
 
 .programFour {
   justify-content: center;
@@ -394,13 +397,13 @@ main {
 }
 
 .programFour .Svgzone {
-    max-width: 115px;
+  max-width: 115px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-/* fifth comment start here*/
+/* fifth comment start here */
 
 .programFive {
   justify-content: center;
@@ -429,87 +432,85 @@ main {
 }
 
 .programFive .Svgzone {
-   max-width: 154px;
+  max-width: 154px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-/*new coding for JavaScript area coding*/
 
-.secondSection{
-    background: #F8F8F8;
-    padding-bottom: 100px;
-    padding-top: 100px;
+/* new coding for JavaScript area coding */
+
+.secondSection {
+  background: #f8f8f8;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
-#myContainer{
-    display: grid;
-    grid-template-columns: repeat(4,4fr);
-    margin: 0px auto;
-    max-width: 1400px;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    grid-gap: 40px;
+#myContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  margin: 0 auto;
+  max-width: 1400px;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 40px;
 }
 
-.box-img img{
-    width: 100%;
-    height: 100%;
-    position: relative;
+.box-img img {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-.speaker-data{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 380px;
-    justify-content: space-between;
+.speaker-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 380px;
+  justify-content: space-between;
 }
 
 /* foot section */
 
-footer{
-    background: #282b32;
-    padding-top: 100px;
-    padding-bottom: 100px; 
+footer {
+  background: #282b32;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-footer h4{
-    color: #fff;
-    text-align: center;
-    font-weight: normal;
-    font-size: 25px;
-    position: relative;
-    bottom: 50px;
-    right: 93px;
-
+footer h4 {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 25px;
+  position: relative;
+  bottom: 50px;
+  right: 93px;
 }
 
-
-
-.foot{
-    display: grid;
-    grid-template-columns: repeat(4,3fr);
-    margin: 0px auto;
-    max-width: 1400px;
+.foot {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
-.foot .newImgSvg{
-    max-width: 100px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.foot .newImgSvg {
+  max-width: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.newAbout{
-    background: #F2F2F2;
+.newAbout {
+  background: #f2f2f2;
 }
 
-.moreAbout{
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    margin: 0px auto;
-    max-width: 1400px;
-    justify-content: center;
+.moreAbout {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: 0 auto;
+  max-width: 1400px;
+  justify-content: center;
 }

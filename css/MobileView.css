@@ -3,16 +3,18 @@
     display: none !important;
   }
 
-  .programGrid{
+  .programGrid {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
   }
-  #myContainer{
+
+  #myContainer {
     display: grid;
-    grid-template-columns: repeat(1,2fr);
-}
-.foot{
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .foot {
     display: grid;
-    grid-template-columns: repeat(1,2fr);
-}
+    grid-template-columns: repeat(1, 2fr);
+  }
 }

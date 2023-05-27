@@ -1,0 +1,151 @@
+.SectionFather {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
+
+.getAllColor {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.fatherOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-image: linear-gradient(
+      rgba(235, 235, 235, 0.644),
+      rgb(230, 230, 230)
+    ),
+    url("../img/CastDinner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.fatherTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.fatherThree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fafafa;
+}
+
+.DayCollaboration p {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #838383;
+  width: 759px;
+  height: 63px;
+}
+
+.DayCollaboration h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: #000;
+  width: 759px;
+}
+
+.DayCollaboration .AboutLogo {
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: 140px;
+}
+
+.healthStatmemt p {
+  width: 793px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+.secondCollaboration{
+    margin: 0px auto;
+    max-width: 1400px;
+}
+
+.secondCollaboration h3{
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #000;
+}
+
+.secondCollaboration p{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #838383;
+    width: 759px;
+    height: 63px;
+}
+
+
+.healthStatmemt {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 35px 65px;
+  gap: 10px;
+  width: 923px;
+  height: 145px;
+  background: #ffffff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.LinkMymail p {
+  font-size: 12px;
+  color: #9c9c9c;
+}
+
+span {
+  color: #000;
+  font-weight: 600;
+}
+
+.ImgGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin: 0px auto;
+    max-width: 1400px;
+    gap: 30px;
+}
