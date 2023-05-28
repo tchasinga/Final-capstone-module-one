@@ -1,12 +1,13 @@
 const speakersSection = document.querySelector('.speaker');
 const speackers = [
   {
-    name: 'Joel kama',
+    name: 'Mustapha jack',
     photo: 'img/speakerOne.svg',
-    role: 'Project manager',
-    description: 'Before the 1980s, it was unclear whether warming by increased...',
+    role: 'Health manager',
+    description: 'the Chinese community for centuries and used extensively...',
   },
-  {
+  
+    {
     name: 'Marcus perezz',
     photo: 'img/speakerTwo.svg',
     role: 'Project manager',
