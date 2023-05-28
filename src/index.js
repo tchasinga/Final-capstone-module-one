@@ -43,4 +43,22 @@ const textLoad = () =>{
 textLoad();
   setInterval(textLoad,20000);
 
-  
+
+  const menuHamburger = document.querySelector('.menu-humberger');
+const navLinks = document.querySelector('.nav-links');
+const closeTage = document.querySelector('.closeHumberger');
+
+document.querySelectorAll('.Golinks').forEach((element) => element.addEventListener('click', () => {
+  navLinks.classList.remove('mobile-menu');
+  menuHamburger.style.display = 'block';
+}));
+
+menuHamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('mobile-menu');
+  menuHamburger.style.display = 'none';
+});
+
+closeTage.addEventListener('click', () => {
+  navLinks.classList.remove('mobile-menu');
+  menuHamburger.style.display = 'block';
+});
