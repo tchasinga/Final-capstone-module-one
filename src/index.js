@@ -4,8 +4,8 @@ let AlertShow = false;
 
 setInterval(() => {
   document.title = AlertShow
-    ? 'Welcom to my Capstone'
-    : 'Hi there || is Tchasinga';
+    ? 'Welcom to health community'
+    : 'You are safe here..';
 
   AlertShow = !AlertShow;
 }, 2000);
@@ -27,18 +27,22 @@ const Changer2 = document.querySelector('.textTag');
 const textLoad = () => {
   setTimeout(() => {
     Changer2.innerHTML = 'Hi there, Welcom';
+    this.style.transition = 'all 0.3s ease-in';
   }, 0);
 
   setTimeout(() => {
     Changer2.innerHTML = 'WOLRD HEALTH COMMUNITY OF THE GLOBAL 2023';
+    this.style.transition = 'all 0.3s ease-in';
   }, 8000);
 
   setTimeout(() => {
     Changer2.innerHTML = 'Keep your Health and Life safe !!';
+    this.style.transition = 'all 0.3s ease-in';
   }, 6000);
 
   setTimeout(() => {
     Changer2.innerHTML = 'We are here to help you';
+    this.style.transition = 'all 0.3s ease-in';
   }, 5000);
 };
 textLoad();
@@ -48,6 +52,8 @@ const menuHamburger = document.querySelector('.menu-humberger');
 const navLinks = document.querySelector('.nav-links');
 const closeTage = document.querySelector('.closeHumberger');
 const showOff = document.querySelector('.secondGrid');
+const OffMsg = document.querySelector('.firstGrid');
+const OffMsg2 = document.querySelector('.newtons-cradle');
 
 document.querySelectorAll('.Golinks').forEach((element) => element.addEventListener('click', () => {
   navLinks.classList.remove('mobile-menu');
@@ -58,12 +64,18 @@ menuHamburger.addEventListener('click', () => {
   navLinks.classList.toggle('mobile-menu');
   menuHamburger.style.display = 'none';
   showOff.style.display = 'none';
+  OffMsg.style.display = 'none';
+  OffMsg2.style.display = 'none';
+  this.style.transition = 'all 0.3s ease-in';
 });
 
 closeTage.addEventListener('click', () => {
   navLinks.classList.remove('mobile-menu');
   menuHamburger.style.display = 'block';
   showOff.style.display = 'block';
+  OffMsg.style.display = 'block';
+  OffMsg2.style.display = 'flex';
+  this.style.transition = 'all 0.3s ease-in';
 });
 
 // eslint-disable-next-line no-undef

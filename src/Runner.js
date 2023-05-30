@@ -1,4 +1,3 @@
-const speakersSection = document.querySelector('.speaker');
 const speackers = [
   {
     name: 'Mustapha jack',
@@ -40,7 +39,7 @@ const speackers = [
 ];
 
 const mainProjectsContainer = document.querySelector('.speaker');
-mainProjectsContainer.innerHTML += speackers.map((project, index) => {
+mainProjectsContainer.innerHTML += speackers.map((project) => {
   const card = `<div class="speaker-data">
     <div class="box-img">
     <img src="${project.photo}" class="image" alt="" />
