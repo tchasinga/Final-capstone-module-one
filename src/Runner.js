@@ -6,8 +6,8 @@ const speackers = [
     role: 'Health manager',
     description: 'the Chinese community for centuries and used extensively...',
   },
-  
-    {
+
+  {
     name: 'Marcus perezz',
     photo: 'img/speakerTwo.svg',
     role: 'Project manager',
@@ -39,17 +39,12 @@ const speackers = [
   },
 ];
 
-
-
-
-
-
 const mainProjectsContainer = document.querySelector('.speaker');
 mainProjectsContainer.innerHTML += speackers.map((project, index) => {
-  let card = `<div class="speaker-data">
+  const card = `<div class="speaker-data">
     <div class="box-img">
     <img src="${project.photo}" class="image" alt="" />
-    </div>  
+    </div>   
     <div class="describ">
        <h4 class="name">${project.name}</h4>
        <a class="discription">${project.role}</a>

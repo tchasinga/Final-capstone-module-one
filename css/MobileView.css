@@ -133,6 +133,17 @@
     gap: 10px;
   }
 
+  .foot .newImgSvg {
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 5px;
+  }
+
+  
+
   footer h4 {
     font-size: 20px;
     font-weight: 900;
@@ -231,6 +242,9 @@
     font-size: 12px;
     margin-top: 15px;
   }
+
+ 
+
   .getAbout h1 {
     display: flex;
     flex-direction: column;
@@ -240,19 +254,32 @@
     font-size: 12px;
   }
 
+ 
+
   /* New responsive side and desing */
   .navbar{
     padding: 0;
     margin: 0;
     background-color: #fff;
   }
+
+  .navbar .LogoChanga{
+    max-width: 100px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    left: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
   
   .nav-links {
     top: 0;
     left: 0;
     position: absolute;
-    backdrop-filter: blur(8px);
-    background: #ec4427b2;
+    backdrop-filter: blur(10px);
+    background: #0000009d;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -276,16 +303,17 @@
   .navbar .menu-humberger {
     display: block;
     position: absolute;
-    top: 10px;
-    right: 30px;
-    width: 35px;
+    top: 5px;
+    right: 330px;
+    width: 40px;
+    float: left;
   }
 
   .navbar .closeHumberger{
     display: block;
     position: absolute;
-    top: 10px;
-    right: 50px;
+    top: 25px;
+    right: 30px;
     width: 35px;
   }
 
@@ -310,4 +338,17 @@
     -webkit-background-clip: text;
     animation: animate 0.3s linear infinite;
   }
+
+  /*Close view*/
+
+  .foot .SvgClose{
+    display: none;
+  }
+
+  .foot .newImgSvg{
+    margin: 15px;
+  }
+
 }
+
+
