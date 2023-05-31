@@ -46,28 +46,28 @@ In professional settings, a final capstone project can be a practical demonstrat
 <details>
   <summary>Html</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Html</a></li>
+    <li><a href="https://www.w3schools.com/html/html_intro.asp">Html</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Css</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Css</a></li>
+    <li><a href="https://www.w3schools.com/css/default.asp">Css</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Linters</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">Linters</a></li>
+    <li><a href="https://olegk.dev/go-linters-configuration-the-right-version">Linters</a></li>
   </ul>
 </details>
 
 <details>
 <summary>JavaScript</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">Linters</a></li>
+    <li><a href="https://www.w3schools.com/js/js_intro.asp">JavaScript</a></li>
   </ul>
 </details>
 
@@ -250,7 +250,9 @@ Remember to utilize your own setting argument in node properties; these are just
 <!-- CONTRIBUTING -->
 
 ## 🚀 Live Demo <a name='demo'></a>
-> Right now this website is Pending , Hope you come back later thanks you []() 
+> If you wanna see the live version [Click here](https://tchasinga.github.io/Final-capstone-module-one/) 
+
+In no time , if you wanna visit the github source [click here](https://github.com/tchasinga/Final-capstone-module-one)
 
 
 
@@ -283,11 +285,12 @@ Remember to utilize your own setting argument in node properties; these are just
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-> Just a little note to say how grateful I am for everything you have done for me. I could not have accomplished [my specific feat] without your help. Your guidance and assistance have been crucial.
+> I just wanted to take a second to say how much I appreciate everything you have done for me. Without your assistance, I would not have been able to achieve [my specific feat]. Your help and direction have been essential.
 
-Your willingness to offer your knowledge and your time has significantly touched my life, and I genuinely thank you for that. Please know that I will always appreciate your kindness and that your efforts were not in vain.
+My life has been greatly impacted by your willingness to share your knowledge and your time, and I sincerely appreciate it. Know that your efforts were not in vain and that I will always be grateful for your kindness.
 
-I just want to say thank you again so much.
+Once again, I want to express my sincere gratitude.
+
 
 
 <p align="right">(<a href="#readme-top">back to bottom</a>)</p>

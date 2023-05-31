@@ -189,14 +189,43 @@ span {
   gap: 20px;
 }
 
+.fatherFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #2e2e2e;
+  padding-top: -100px;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+
+.JoinUs .ImgHealth {
+  width: 200px;
+  position: relative;
+  top: 5px;
+}
+
+.JoinUs2 {
+  font-size: 13px;
+  color: #fff;
+  justify-content: center;
+  width: 683px;
+}
+
 .JoinUs p {
   font-size: 15px;
   text-align: center;
 }
 
+.gmailCopy {
+  font-size: 15px;
+  color: #ad7575;
+  margin-top: 10px;
+}
+
 .ChildOne {
-  border-radius: 10px;
-  padding: 80px;
+  padding: 20px 80px;
   background-image:
     linear-gradient(
       rgba(221, 38, 38, 0.644),
@@ -212,7 +241,6 @@ span {
 }
 
 .SecondChild {
-  border-radius: 10px;
   padding: 80px;
   background-image:
     linear-gradient(
@@ -383,10 +411,12 @@ span {
     margin-top: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
+    position: relative;
+    left: 10px;
   }
 
   .ChildOne {
-    border-radius: 10px;
+
     padding: 80px;
     background-image:
       linear-gradient(
@@ -396,14 +426,13 @@ span {
       url("../img/PlansHealth.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    backdrop-filter: blur(10px);
     position: relative;
     left: 40px;
     color: #fff;
   }
 
   .SecondChild {
-    border-radius: 10px;
+
     padding: 80px;
     background-image:
       linear-gradient(
@@ -415,8 +444,9 @@ span {
     background-repeat: no-repeat;
     backdrop-filter: blur(10px);
     position: relative;
-    left: 40px;
+    right: 170px;
     color: #fff;
+    width: 350px;
   }
 
   .JoinUs ul {
@@ -450,24 +480,50 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 10px;
-    max-width: 360px;
-    margin-top: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
-    left: 5px;
   }
 
   .fatherFour {
     background: #fff;
     padding-top: -100px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 414px;
   }
 
   .JoinUs p {
     font-size: 11px;
     text-align: center;
+  }
+
+  .JoinUs2 {
+    font-size: 13px;
+    color: #050202;
+    justify-content: center;
+    width: 683px;
+    margin: 0 auto;
+    position: relative;
+    left: 90px;
+  }
+
+  .JoinUs .ImgHealth {
+    display: none;
+  }
+
+  .JoinUs .LogoOff {
+    width: 60px;
+    position: relative;
+    left: 80px;
+  }
+
+  .JoinUs2 p {
+    font-size: 10px;
+    width: 175px;
+  }
+
+  .JoinUs2 .NewColorsCodeOne {
+    display: none;
+    font-size: 10px;
+    max-width: 375px;
   }
 }
 

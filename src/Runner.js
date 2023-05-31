@@ -40,7 +40,8 @@ const speackers = [
 
 const mainProjectsContainer = document.querySelector('.speaker');
 mainProjectsContainer.innerHTML += speackers.map((project) => {
-  const card = `<div class="speaker-data">
+  const card = `
+      <div class="speaker-data">
     <div class="box-img">
     <img src="${project.photo}" class="image" alt="" />
     </div>   
