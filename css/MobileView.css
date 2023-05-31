@@ -1,0 +1,443 @@
+@media only screen and (max-width: 375px),
+  (max-width: 390px),
+  (max-width: 414px) {
+  * {
+    max-width: 414px;
+  }
+
+  header {
+    display: none !important;
+  }
+
+  .topLinkNav {
+    display: none !important;
+  }
+
+  /* Start coding on program side */
+  .programGrid {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0;
+    grid-gap: 0;
+  }
+
+  .programOne {
+    display: flex;
+    flex-direction: row;
+    max-width: 1900px;
+  }
+
+  .programTwo {
+    display: flex;
+    flex-direction: row;
+    max-width: 1900px;
+  }
+
+  .programThree {
+    display: flex;
+    flex-direction: row;
+    max-width: 1900px;
+  }
+
+  .programFour {
+    display: flex;
+    flex-direction: row;
+    max-width: 1900px;
+  }
+
+  .programFive {
+    display: flex;
+    flex-direction: row;
+    max-width: 1900px;
+  }
+
+  .programOne .Svgzone {
+    max-width: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .programOne h3 {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #ec4327;
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+
+  .programOne p {
+    font-size: 10px;
+  }
+
+  .programTwo .Svgzone {
+    max-width: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .programTwo h3 {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #ec4327;
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+
+  .programTwo p {
+    font-size: 10px;
+  }
+
+  .programThree .Svgzone {
+    max-width: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .programThree h3 {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 5px;
+    color: #ec4327;
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+
+  .programThree p {
+    font-size: 10px;
+  }
+
+  .programFour .Svgzone {
+    max-width: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .programFour h3 {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 5px;
+    color: #ec4327;
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+
+  .programFour p {
+    font-size: 10px;
+  }
+
+  .programFive .Svgzone {
+    max-width: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .programFive h3 {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 5px;
+    color: #ec4327;
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+
+  .programFive p {
+    font-size: 10px;
+  }
+
+  .gridContainer .newtons-cradle {
+    position: relative;
+    left: 20px;
+  }
+
+  .gridContainer {
+    margin: 0 auto;
+    position: relative;
+    left: 0%;
+    display: grid;
+    max-width: 1400px;
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  /* Start coding on program side */
+  #myContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 5px;
+  }
+
+  .foot {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+
+  .foot .newImgSvg {
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 5px;
+    margin: 15px;
+  }
+
+  footer h4 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 5px;
+    color: #bbb2b1b9;
+    max-width: 900px;
+    position: relative;
+    right: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .firstGrid .textTag {
+    font-size: 2rem;
+    line-height: 60px;
+    background-image: url("../img/CastDinner.png");
+    background-size: cover;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #d4311fb4;
+    max-width: 360px;
+    cursor: pointer;
+    margin-left: 6px;
+  }
+
+  .firstGrid .hDTagText {
+    background-image: url("../img/CastDinner.png");
+    background-size: cover;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ff351fa2;
+    margin-left: 6px;
+  }
+
+  .secondGrid p {
+    color: black;
+    max-width: 360px;
+    height: 150.56px;
+    border: 4px #fff solid;
+    padding: 10px;
+    font-weight: 400;
+    position: relative;
+    top: 32px;
+    font-size: 10px;
+    justify-content: center;
+    margin-left: 8px;
+  }
+
+  .thirdGrid p {
+    font-family: "Jost", sans-serif;
+    max-width: 100%;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+
+  .thirdGrid h2 {
+    font-size: 1.7rem;
+    max-width: 55%;
+    margin-left: 8px;
+  }
+
+  .Giveparaph {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    position: relative;
+    top: 10px;
+    max-width: 400px;
+  }
+
+  .Giveparaphie {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: -0.01em;
+    position: relative;
+    bottom: 30px;
+    max-width: 400px;
+    text-transform: lowercase;
+    border: 1px #ff2020 solid;
+    background-color: #ec4327;
+    padding: 8px 22px;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .newAbout {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 0 auto;
+    gap: 10px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .getAbout h2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 0 auto;
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  /* New responsive side and desing */
+  .navbar {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  .navbar .LogoChanga {
+    max-width: 100px;
+    position: relative;
+    top: 5px;
+    left: 126px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    top: 0;
+    left: 0;
+    position: absolute;
+    backdrop-filter: blur(1000px);
+    background: #0000009d;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;
+    transition: all 0.5s ease-in-out;
+    color: white;
+  }
+
+  .nav-links ul {
+    margin-top: -300px;
+    margin-left: -220px;
+    display: flex;
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+  }
+
+  .navbar .menu-humberger {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 330px;
+    width: 40px;
+    float: left;
+  }
+
+  .navbar .closeHumberger {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 35px;
+  }
+
+  .nav-links.mobile-menu {
+    margin-left: 0;
+  }
+
+  .navbar .nav-links ul li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    background: linear-gradient(90deg, #fff, #fff, #fff, #fff, #fff, #fff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 0.3s linear infinite;
+  }
+
+  .navbar .nav-links:first-child {
+    background:
+      linear-gradient(
+        90deg,
+        #ff2020,
+        #962f2f,
+        #1f0b0b,
+        #b90e0ede,
+        #0f0c0c,
+        #2e1f1f
+      );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 0.3s linear infinite;
+  }
+
+  /* new side */
+
+  .speaker-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 5%;
+    font-size: 10px;
+    gap: 10px;
+  }
+
+  .box-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .describ .comment {
+    font-size: 11px;
+    color: #252424;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  .Giveparaphique {
+    color: rgba(24, 18, 18, 0.89);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    bottom: 50px;
+    right: 80px;
+    width: 230px;
+    position: relative;
+    left: 60px;
+  }
+
+  /* Close view */
+
+  .foot .SvgClose {
+    display: none;
+  }
+}

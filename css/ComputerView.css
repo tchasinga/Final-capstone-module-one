@@ -1,0 +1,580 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.gridOne .tagGrid {
+  background: #3e3e3e;
+}
+
+.gridOne {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
+
+.topLinkNav {
+  color: white;
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  width: 100%;
+  font-weight: 500;
+  position: relative;
+  bottom: 130px;
+}
+
+.topLinkNav ul {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  margin-top: 5px;
+}
+
+.topLinkNav .bxl-facebook {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.topLinkNav .bxl-twitter {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+nav ul li:last-child {
+  border: 5px #ec4327 solid;
+  padding: 3px 12px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  background:
+    linear-gradient(
+      90deg,
+      #ec4327,
+      #ec4327,
+      #ec4327,
+      #ec4327,
+      #ec4327,
+      #ec4327
+    );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 0.3s linear infinite;
+}
+
+.topLinkNav .getHover li:hover {
+  color: #ec4327;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* grid tamplate */
+
+.mainContainer {
+  background: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  height: 85px;
+}
+
+.pageDetails {
+  margin: 0 auto;
+  max-width: 1400px;
+  margin-top: 10px;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+}
+
+.pageDetails .Logo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+/* main section using grid elemet */
+main {
+  background-image:
+    linear-gradient(
+      rgba(235, 235, 235, 0.623),
+      rgb(230, 230, 230)
+    ),
+    url("../img/CastDinner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 887px;
+}
+
+.gridContainer {
+  margin: 0 auto;
+  position: relative;
+  right: 3%;
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: repeat(1, 2fr);
+}
+
+.gridContainer:first-child {
+  color: #6070ff;
+}
+
+.firstGrid {
+  margin-top: 99px;
+}
+
+.firstGrid .textTag {
+  font-size: 3rem;
+  line-height: 60px;
+  background-image: url("../img/CastDinner.png");
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #d4311fb4;
+  width: 732.84px;
+  cursor: pointer;
+}
+
+.firstGrid .hDTagText {
+  background-image: url("../img/CastDinner.png");
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ff351fa2;
+}
+
+/* deatails side and comment about this project */
+
+.secondGrid p {
+  color: black;
+  width: 756.21px;
+  height: 180.56px;
+  border: 4px #fff solid;
+  padding: 10px;
+  font-weight: 400;
+  position: relative;
+  top: 32px;
+}
+
+/* Staring up with the last side of part one */
+
+.thirdGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  margin-top: 50px;
+  color: black;
+}
+
+.thirdGrid p {
+  font-family: "Jost", sans-serif;
+}
+
+/* working on new section management */
+
+.firstSection {
+  background: #282b32;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23080709' fill-opacity='0.9'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-color: #0f1014;
+  backdrop-filter: blur(15px);
+}
+
+.Giveparaph {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  position: relative;
+  top: 90px;
+}
+
+.Giveparaph h1 {
+  font-weight: 300;
+}
+
+.Giveparaph img {
+  width: 60px;
+}
+
+.Giveparaphique {
+  color: rgba(24, 18, 18, 0.89);
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  position: relative;
+  bottom: 50px;
+  right: 80px;
+}
+
+.Giveparaphie {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  position: relative;
+  bottom: 50px;
+}
+
+.programGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  margin: 0 auto;
+  max-width: 1400px;
+  height: 587px;
+  align-items: center;
+  text-align: center;
+}
+
+.programOne .Svgzone {
+  max-width: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.programOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  max-height: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+  background: #3b3e4594;
+}
+
+/* first animation start here */
+
+.programOne:hover {
+  border: 1px #fff solid;
+  transition: all 0.4s;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 0 #fff;
+  background: #3b3e4594;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+
+.programOne h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #ec4327;
+}
+
+.programOne p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+  color: white;
+}
+
+/* second comment start here */
+.programTwo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  max-height: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+  background: #3b3e4594;
+}
+
+.programTwo:hover {
+  border: 1px #fff solid;
+  transition: all 0.4s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* animation side ? */
+.animationSide:hover {
+  border: 1px #fff solid;
+  transition: all 0.4s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* section forward?? */
+.programTwo h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #ec4327;
+}
+
+.programTwo p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+  color: white;
+}
+
+.programTwo .Svgzone {
+  max-width: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* third comment start here */
+
+.programThree {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  max-height: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  background: #3b3e4594;
+  margin-right: 5px;
+}
+
+.programThree h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #ec4327;
+}
+
+.programThree p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+  color: white;
+}
+
+.programThree .Svgzone {
+  max-width: 175px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* fourth comment start here */
+
+.programFour {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  max-height: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  background: #3b3e4594;
+  margin-right: 5px;
+}
+
+.programFour h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #ec4327;
+}
+
+.programFour p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+  color: white;
+}
+
+.programFour .Svgzone {
+  max-width: 115px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* fifth comment start here */
+
+.programFive {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  max-height: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  background: #3b3e4594;
+  margin-right: 5px;
+}
+
+.programFive h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #ec4327;
+}
+
+.programFive p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+  color: white;
+}
+
+.programFive .Svgzone {
+  max-width: 154px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* new coding for JavaScript area coding */
+
+.secondSection {
+  background: #d3d3d3;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#myContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  margin: 0 auto;
+  max-width: 1400px;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.box-img img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.speaker-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  left: 40%;
+}
+
+/* foot section */
+
+footer {
+  background: #282b32;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+footer h4 {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 25px;
+  position: relative;
+  bottom: 50px;
+  right: 93px;
+}
+
+.foot {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.foot .newImgSvg {
+  max-width: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 100px;
+}
+
+.newAbout {
+  background: #f2f2f277;
+}
+
+.footing img {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 690px;
+  bottom: 39px;
+}
+
+.moreAbout {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1400px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+.describ .discription {
+  font-size: 12px;
+  color: #ec4327;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.describ .name {
+  font-size: 15px;
+  color: #252424;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.describ .comment {
+  font-size: 14px;
+  color: #252424;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 415px) {
+  .closingTaging {
+    display: none;
+  }
+}

@@ -1,0 +1,528 @@
+* {
+  scroll-behavior: smooth;
+  transition: all 0.5s ease-in;
+}
+
+.SectionFather {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  background: whitesmoke;
+}
+
+.fatherTwo {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.getAllColor h1 {
+  font-size: 4rem;
+  width: 80%;
+  background-image: url("../img/CastDinner.png");
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #d4311fb4;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.getAllColor {
+  max-width: 100%;
+}
+
+.healthStatmemt p {
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+  right: inherit;
+  width: 1300px;
+  font-size: 18px;
+}
+
+.healthStatmemt {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+
+.takeBackground {
+  background-image:
+    linear-gradient(
+      rgba(235, 235, 235, 0.623),
+      rgb(230, 230, 230)
+    ),
+    url("../img/CastDinner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 3000px;
+}
+
+.LinkMymail {
+  font-size: 18px;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+span {
+  font-weight: 700;
+  color: black;
+}
+
+.DayCollaboration {
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.DayCollaboration p {
+  width: 1300px;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+  left: 110px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.DayCollaboration h3 {
+  font-size: 2.5rem;
+  width: 100%;
+  background-image: url("../img/CastDinner.png");
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #d4311fb4;
+  text-align: center;
+  justify-content: center;
+}
+
+.DayCollaboration img {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.takeColopicks {
+  background-color: #fff;
+}
+
+.takeColopicks h3 {
+  font-size: 3rem;
+  width: 80%;
+  background-image: url("../img/CastDinner.png");
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #d4311fb4;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  left: 80px;
+}
+
+.secondCollaboration p {
+  width: 780px;
+  font-size: 15px;
+  position: relative;
+  left: 85px;
+  top: 30px;
+}
+
+.fatherThree {
+  background: #fff;
+}
+
+.ImgGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 90%;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.JoinUs ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 30px;
+  background:
+    linear-gradient(
+      90deg,
+      #000,
+      #110f0e,
+      #050202,
+      #130604,
+      #0a0807,
+      #050403
+    );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 0.3s linear infinite;
+  margin: 0 auto;
+  max-width: 1400px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.fatherFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #2e2e2e;
+  padding-top: -100px;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+
+.JoinUs .ImgHealth {
+  width: 200px;
+  position: relative;
+  top: 5px;
+}
+
+.JoinUs2 {
+  font-size: 13px;
+  color: #fff;
+  justify-content: center;
+  width: 683px;
+}
+
+.JoinUs p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.gmailCopy {
+  font-size: 15px;
+  color: #ad7575;
+  margin-top: 10px;
+}
+
+.ChildOne {
+  padding: 80px;
+  background-image:
+    linear-gradient(
+      rgba(236, 102, 81, 0.644),
+      rgba(236, 102, 81, 0.733)
+    ),
+    url("../svg/AvocadoSalad.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  position: relative;
+  left: 40px;
+  color: #fff;
+}
+
+.SecondChild {
+  padding: 80px;
+  background-image:
+    linear-gradient(
+      rgba(236, 102, 81, 0.644),
+      rgb(236, 102, 81)
+    ),
+    url("../img/CastDinner.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  position: relative;
+  left: 40px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 414px) {
+  .newSection {
+    background-color: #fff;
+  }
+
+  * {
+    max-width: 414px;
+  }
+
+  .SectionFather {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    max-width: 1900px;
+    background: whitesmoke;
+  }
+
+  .fatherTwo {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .takeBackground {
+    background-image:
+      linear-gradient(
+        rgba(235, 235, 235, 0.623),
+        rgb(230, 230, 230)
+      ),
+      url("../img/CastDinner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .getAllColor h1 {
+    font-size: 2rem;
+    width: 80%;
+    background-image: url("../img/CastDinner.png");
+    background-size: cover;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #d4311fb4;
+  }
+
+  .healthStatmemt p {
+    width: 350px;
+    font-size: 12px;
+    justify-content: flex-start;
+  }
+
+  .healthStatmemt {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    max-width: 500px;
+  }
+
+  /* new work and organization */
+
+  .LinkMymail {
+    width: 390px;
+    font-size: 12px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  span {
+    font-weight: 700;
+    color: black;
+  }
+
+  .DayCollaboration {
+    width: 390px;
+    font-size: 12px;
+    position: relative;
+  }
+
+  .DayCollaboration p {
+    width: 330px;
+    font-size: 12px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+  }
+
+  .DayCollaboration h3 {
+    font-size: 1rem;
+    width: 80%;
+    background-image: url("../img/CastDinner.png");
+    background-size: cover;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #d4311fb4;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .DayCollaboration img {
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+  }
+
+  .takeColopicks {
+    background-color: #fff;
+  }
+
+  .takeColopicks h3 {
+    font-size: 1rem;
+    width: 80%;
+    background-image: url("../img/CastDinner.png");
+    background-size: cover;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #d4311fb4;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+  }
+
+  .secondCollaboration p {
+    width: 330px;
+    font-size: 12px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+  }
+
+  .fatherThree {
+    background: #fff;
+  }
+
+  .ImgGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 70%;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 10px;
+  }
+
+  .ChildOne {
+    padding: 80px;
+    background-image:
+      linear-gradient(
+        rgba(236, 102, 81, 0.644),
+        rgba(236, 102, 81, 0.733)
+      ),
+      url("../svg/AvocadoSalad.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 40px;
+    color: #fff;
+  }
+
+  .SecondChild {
+    padding: 80px;
+    background-image:
+      linear-gradient(
+        rgba(221, 38, 38, 0.644),
+        rgb(124, 106, 106)
+      ),
+      url("../img/CastDinner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    position: relative;
+    right: 170px;
+    color: #fff;
+    width: 350px;
+  }
+
+  .JoinUs ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    background:
+      linear-gradient(
+        90deg,
+        #000,
+        #110f0e,
+        #050202,
+        #130604,
+        #0a0807,
+        #050403
+      );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 0.3s linear infinite;
+    margin: 0 auto;
+    max-width: 1400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .JoinUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fatherFour {
+    background: #fff;
+    padding-top: -100px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 414px;
+  }
+
+  .JoinUs p {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .JoinUs2 {
+    font-size: 13px;
+    color: #050202;
+    justify-content: center;
+    width: 683px;
+    margin: 0 auto;
+    position: relative;
+    left: 90px;
+  }
+
+  .JoinUs .ImgHealth {
+    display: none;
+  }
+
+  .JoinUs .LogoOff {
+    width: 60px;
+    position: relative;
+    left: 80px;
+  }
+
+  .JoinUs2 p {
+    font-size: 10px;
+    width: 175px;
+  }
+
+  .JoinUs2 .NewColorsCodeOne {
+    display: none;
+    font-size: 10px;
+    max-width: 375px;
+  }
+}
+
+/* Computer side coding */
