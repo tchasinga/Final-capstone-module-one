@@ -532,6 +532,15 @@ footer h4 {
   background: #f2f2f277;
 }
 
+.footing img {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 690px;
+  bottom: 39px;
+}
+
 .moreAbout {
   display: flex;
   flex-direction: row;
