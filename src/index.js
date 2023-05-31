@@ -54,6 +54,7 @@ const closeTage = document.querySelector('.closeHumberger');
 const showOff = document.querySelector('.secondGrid');
 const OffMsg = document.querySelector('.firstGrid');
 const OffMsg2 = document.querySelector('.newtons-cradle');
+const OffMsg3 = document.querySelector('.thirdGrid');
 
 document.querySelectorAll('.Golinks').forEach((element) => element.addEventListener('click', () => {
   navLinks.classList.remove('mobile-menu');
@@ -66,6 +67,7 @@ menuHamburger.addEventListener('click', () => {
   showOff.style.display = 'none';
   OffMsg.style.display = 'none';
   OffMsg2.style.display = 'none';
+  OffMsg3.style.display = 'none';
   this.style.transition = 'all 0.3s ease-in';
 });
 
@@ -74,6 +76,7 @@ closeTage.addEventListener('click', () => {
   menuHamburger.style.display = 'block';
   showOff.style.display = 'block';
   OffMsg.style.display = 'block';
+  OffMsg3.style.display = 'block';
   OffMsg2.style.display = 'flex';
   this.style.transition = 'all 0.3s ease-in';
 });
