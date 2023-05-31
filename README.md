@@ -28,6 +28,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
+
+
 # 📖 WORLD HEALTH COMMUNITY <a name="about-project"></a>
 
 > The final capstone project is a significant milestone and culmination of an academic or professional program. It represents a culmination of the knowledge and skills acquired throughout the course of study. Whether it's in higher education, such as a bachelor's or master's degree, or in a professional setting, the final capstone project typically requires students to apply what they have learned to solve a real-world problem or demonstrate expertise in a particular area.
@@ -285,11 +287,18 @@ In no time , if you wanna visit the github source [click here](https://github.co
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-> I just wanted to take a second to say how much I appreciate everything you have done for me. Without your assistance, I would not have been able to achieve [my specific feat]. Your help and direction have been essential.
+ 
+  Cindy Shin  in Behance for share her design,
 
-My life has been greatly impacted by your willingness to share your knowledge and your time, and I sincerely appreciate it. Know that your efforts were not in vain and that I will always be grateful for your kindness.
+I wanted to take a moment to express my sincere gratitude for sharing your incredible design work on Behance. Your creativity and talent are truly inspiring. The attention to detail and innovative ideas showcased in your designs have captivated me.
 
-Once again, I want to express my sincere gratitude.
+Your willingness to share your work with the community is commendable and greatly appreciated. It has not only provided me with inspiration but has also helped me grow as a designer. Your designs have sparked new ideas and pushed me to think outside the box.
+
+Thank you once again for your generosity in sharing your artistry on Behance. Your contributions have made a positive impact on the creative community. I look forward to seeing more of your amazing work in the future.
+[ in Behance for share her design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
+With heartfelt thanks,
+>TCHASINGA BALOLEBWAMI JACK
 
 
 

@@ -206,12 +206,20 @@ main {
   color: white;
   text-align: center;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
   line-height: 28px;
   letter-spacing: -0.01em;
   position: relative;
   top: 90px;
+}
+
+.Giveparaph h1 {
+  font-weight: 300;
+}
+
+.Giveparaph img {
+  width: 60px;
 }
 
 .Giveparaphique {
@@ -284,7 +292,7 @@ main {
   cursor: pointer;
 }
 
-.programOne h1 {
+.programOne h3 {
   font-size: 1.5rem;
   font-weight: 300;
   margin-top: 10px;
@@ -327,7 +335,7 @@ main {
 }
 
 /* section forward?? */
-.programTwo h1 {
+.programTwo h3 {
   font-size: 1.5rem;
   font-weight: 300;
   margin-top: 10px;
@@ -362,7 +370,7 @@ main {
   margin-right: 5px;
 }
 
-.programThree h1 {
+.programThree h3 {
   font-size: 1.5rem;
   font-weight: 300;
   margin-top: 10px;
@@ -397,7 +405,7 @@ main {
   margin-right: 5px;
 }
 
-.programFour h1 {
+.programFour h3 {
   font-size: 1.5rem;
   font-weight: 300;
   margin-top: 10px;
@@ -432,7 +440,7 @@ main {
   margin-right: 5px;
 }
 
-.programFive h1 {
+.programFive h3 {
   font-size: 1.5rem;
   font-weight: 300;
   margin-top: 10px;
@@ -521,7 +529,7 @@ footer h4 {
 }
 
 .newAbout {
-  background: #f2f2f2;
+  background: #f2f2f277;
 }
 
 .moreAbout {

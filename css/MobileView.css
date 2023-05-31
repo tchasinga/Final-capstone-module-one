@@ -58,7 +58,7 @@
     text-align: center;
   }
 
-  .programOne h1 {
+  .programOne h3 {
     font-size: 13px;
     font-weight: 300;
     margin-top: 10px;
@@ -78,7 +78,7 @@
     text-align: center;
   }
 
-  .programTwo h1 {
+  .programTwo h3 {
     font-size: 13px;
     font-weight: 300;
     margin-top: 10px;
@@ -98,7 +98,7 @@
     text-align: center;
   }
 
-  .programThree h1 {
+  .programThree h3 {
     font-size: 13px;
     font-weight: 300;
     margin-top: 5px;
@@ -118,7 +118,7 @@
     text-align: center;
   }
 
-  .programFour h1 {
+  .programFour h3 {
     font-size: 13px;
     font-weight: 300;
     margin-top: 5px;
@@ -138,7 +138,7 @@
     text-align: center;
   }
 
-  .programFive h1 {
+  .programFive h3 {
     font-size: 13px;
     font-weight: 300;
     margin-top: 5px;
@@ -249,7 +249,7 @@
     margin-left: 8px;
   }
 
-  .thirdGrid h1 {
+  .thirdGrid h2 {
     font-size: 1.7rem;
     max-width: 55%;
     margin-left: 8px;
@@ -295,7 +295,7 @@
     margin-top: 15px;
   }
 
-  .getAbout h1 {
+  .getAbout h2 {
     display: flex;
     flex-direction: column;
     max-width: 375px;
