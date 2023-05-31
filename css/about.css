@@ -225,13 +225,13 @@ span {
 }
 
 .ChildOne {
-  padding: 20px 80px;
+  padding: 80px;
   background-image:
     linear-gradient(
-      rgba(221, 38, 38, 0.644),
-      rgb(124, 106, 106)
+      rgba(236, 102, 81, 0.644),
+      rgba(236, 102, 81, 0.733)
     ),
-    url("../img/PlansHealth.png");
+    url("../svg/AvocadoSalad.png");
   background-size: 100%;
   background-repeat: no-repeat;
   backdrop-filter: blur(10px);
@@ -244,8 +244,8 @@ span {
   padding: 80px;
   background-image:
     linear-gradient(
-      rgba(221, 38, 38, 0.644),
-      rgb(124, 106, 106)
+      rgba(236, 102, 81, 0.644),
+      rgb(236, 102, 81)
     ),
     url("../img/CastDinner.png");
   background-size: 100%;
@@ -416,14 +416,13 @@ span {
   }
 
   .ChildOne {
-
     padding: 80px;
     background-image:
       linear-gradient(
-        rgba(221, 38, 38, 0.644),
-        rgb(124, 106, 106)
+        rgba(236, 102, 81, 0.644),
+        rgba(236, 102, 81, 0.733)
       ),
-      url("../img/PlansHealth.png");
+      url("../svg/AvocadoSalad.png");
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -432,7 +431,6 @@ span {
   }
 
   .SecondChild {
-
     padding: 80px;
     background-image:
       linear-gradient(
