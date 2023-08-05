@@ -55,4 +55,4 @@ mainProjectsContainer.innerHTML += speackers.map((project) => {
   </div>`;
 
   return card;
-});
+}).join('');
